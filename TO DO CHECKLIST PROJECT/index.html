@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>To-Do Checklist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80" alt="Checklist" class="header-img" />
+    <h1>To-Do Checklist</h1>
+    <p class="appealing-text">Stay organized and boost your productivity! Add tasks, choose categories, and check them off as you go. Your day, your way.</p>
+    <div class="todo-input">
+      <input type="text" id="taskInput" placeholder="Add a new task..." />
+      <select id="categorySelect">
+        <option value="Work">Work</option>
+        <option value="Personal">Personal</option>
+        <option value="Shopping">Shopping</option>
+        <option value="Other">Other</option>
+      </select>
+      <button id="addTaskBtn">Add</button>
+    </div>
+    <ul id="taskList"></ul>
+    <div class="info-section">
+      <h2>About To-Do Lists</h2>
+      <ul class="info-list">
+        <li>To-do lists help you organize your day and boost productivity.</li>
+        <li>Break big tasks into smaller, manageable steps for better progress.</li>
+        <li>Prioritize tasks by category to focus on what matters most.</li>
+        <li>Checking off completed tasks gives a sense of achievement!</li>
+        <li>Review your list daily to stay on track and motivated.</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
